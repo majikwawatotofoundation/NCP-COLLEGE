@@ -31,7 +31,7 @@ function toggleMenu() {
 burger.addEventListener('click', toggleMenu);
 closeBtn.addEventListener('click', toggleMenu);
 overlay.addEventListener('click', toggleMenu);
-  overlay.addEventListener('click', toggleDrawer);
+  // overlay.addEventListener('click', toggleDrawer);
 
 
 });

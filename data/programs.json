@@ -1,0 +1,838 @@
+{
+  "programs": [
+    {
+      "program_slug": "information-technology",
+      "program_name": "Information Technology",
+      "eyebrow": "Programs",
+      "subtitle": "Practical, career-focused training designed to build strong digital skills for today’s workplace.",
+      "hero": {
+        "title": "Programs Offered",
+        "description": "Practical, hands-on training pathways designed to prepare students for employment, self-reliance, and further studies in the digital field.",
+        "badges": [
+          "Day & Evening Classes",
+          "Certificate & Diploma",
+          "Intake Ongoing"
+        ]
+      },
+      "course_highlights": [
+        {
+          "title": "Diploma in Information Technology",
+          "level": "Diploma",
+          "duration": "18 Months",
+          "image": "assets/img/programs/it/it-north-coast-prime-college-image (7).jpg"
+        },
+        {
+          "title": "Certificate in Information Technology",
+          "level": "Certificate",
+          "duration": "12 Months",
+          "image": "assets/img/programs/it/it-north-coast-prime-college-image (4).jpg"
+        },
+        {
+          "title": "Web Design",
+          "level": "Short Course",
+          "duration": "3 Months",
+          "image": "assets/img/programs/it/it-north-coast-prime-college-image (3).jpg"
+        }
+      ],
+      "accordion_intro": {
+        "title": "All Information Technology Courses",
+        "description": "View entry requirements, duration, and fee structure for each course."
+      },
+      "accordion_background": "assets/img/programs/it/it-north-coast-prime-college-image (5).jpg",
+      "courses": [
+        {
+          "id": "dipICT",
+          "title": "Diploma in Information Technology",
+          "expanded": true,
+          "details": [
+            "Entry Requirement: KCSE C (Plain)",
+            "Duration: 18 Months",
+            "Fees per Semester: KES 25,000",
+            "Fees per Month: —"
+          ]
+        },
+        {
+          "id": "certICT",
+          "title": "Certificate in Information Technology",
+          "details": [
+            "Entry Requirement: KCSE C– (Minus)",
+            "Duration: 12 Months",
+            "Fees per Semester: KES 18,000",
+            "Fees per Month: KES 6,000"
+          ]
+        },
+        {
+          "id": "packages",
+          "title": "Computer Packages",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 7 Weeks",
+            "Fees: KES 7,000"
+          ]
+        },
+        {
+          "id": "maintenance",
+          "title": "Computer Maintenance",
+          "details": [
+            "Entry Requirement: KCSE D (Plain)",
+            "Duration: 3 Months",
+            "Fees per Semester: KES 18,000",
+            "Fees per Month: KES 6,000"
+          ]
+        },
+        {
+          "id": "web",
+          "title": "Web Designing",
+          "details": [
+            "Entry Requirement: KCSE D (Plain)",
+            "Duration: 3 Months",
+            "Fees: KES 30,000",
+            "Fees per Month: KES 10,000"
+          ]
+        },
+        {
+          "id": "graphic",
+          "title": "Graphic Design",
+          "details": [
+            "Entry Requirement: KCSE D (Plain)",
+            "Duration: 3 Months",
+            "Fees: KES 24,000",
+            "Fees per Month: KES 8,000"
+          ]
+        }
+      ],
+      "gallery": {
+        "main": "assets/img/programs/it/it-north-coast-prime-college-image (1).jpg",
+        "thumbs": [
+          "assets/img/programs/it/it-north-coast-prime-college-image (2).jpg",
+          "assets/img/programs/it/it-north-coast-prime-college-image (6).jpg"
+        ]
+      },
+      "why_study": {
+        "title": "Why Study Information Technology at North Coast Prime College",
+        "description": "Our IT programs emphasize hands-on learning, real-world applications, and industry-aligned skills to prepare students for employment or further studies.",
+        "points": [
+          { "icon": "laptop", "title": "Hands-on Training", "text": "Practical sessions in a modern computer lab" },
+          { "icon": "diagram-3", "title": "Industry-Relevant Curriculum", "text": "Courses aligned with current market needs" },
+          { "icon": "person-badge", "title": "Experienced Instructors", "text": "Learn from qualified IT professionals" },
+          { "icon": "award", "title": "Recognized Certification Paths", "text": "Preparation for professional certification" }
+        ]
+      },
+        "study_mode": [
+        "Day Classes: Monday – Friday (7:00am – 4:00pm)",
+        "Evening Classes: Monday – Friday (5:00pm – 7:00pm)",
+        "Weekend Classes: Saturday & Sunday (8:00am – 5:00pm, available upon request))"
+        ]
+         ,
+      "career_paths": [
+        "IT Support Technician",
+        "Web Designer",
+        "Graphic Designer",
+        "Network Technician",
+        "Computer Maintenance Technician"
+      ],
+      "fees_snapshot": [
+        { "title": "Diploma in ICT", "price": "KES 25,000 per semester" },
+        { "title": "Certificate in ICT", "price": "KES 6,000 per month" },
+        { "title": "Short Courses", "price": "From KES 7,000" }
+      ],
+      "fees_note": "Indicative fees. Subject to change. Please confirm with admissions."
+    },
+
+    {
+      "program_slug": "cosmetology",
+      "program_name": "Cosmetology",
+      "eyebrow": "Programs",
+      "subtitle": "Creative, hands-on beauty training designed to prepare students for self-employment and salon careers.",
+      "hero": {
+        "title": "Programs Offered",
+        "description": "Industry-focused beauty and cosmetology programs emphasizing practical skills, creativity, and client care.",
+        "badges": [
+          "Hands-On Training",
+          "Certificate & Diploma",
+          "Salon-Ready Skills"
+        ]
+      },
+      "course_highlights": [
+        {
+          "title": "Diploma in Hairdressing",
+          "level": "Diploma",
+          "duration": "18 Months",
+          "image": "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (1).jpg"
+        },
+        {
+          "title": "Certificate in Hairdressing",
+          "level": "Certificate",
+          "duration": "3 Months",
+          "image": "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (2).jpg"
+        },
+        {
+          "title": "Nail Technology",
+          "level": "Short Course",
+          "duration": "3 Months",
+          "image": "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (5).jpg"
+        }
+      ],
+      "accordion_intro": {
+        "title": "All Cosmetology Courses",
+        "description": "Explore entry requirements, duration, and fee structure for each course."
+      },
+      "accordion_background": "assets/img/programs/cosmetology/bg.jpg",
+      "courses": [
+        {
+          "id": "dipHair",
+          "title": "Diploma in Hairdressing",
+          "expanded": true,
+          "details": [
+            "Entry Requirement: KCSE C– (Minus)",
+            "Duration: 18 Months",
+            "Fees per Semester: KES 25,000",
+            "Fees per Month: KES 6,000"
+          ]
+        },
+        {
+          "id": "certHair",
+          "title": "Certificate in Hairdressing",
+          "details": [
+            "Entry Requirement: KCSE D+ (Plus)",
+            "Duration: 3 Months",
+            "Fees per Semester: KES 18,000",
+            "Fees per Month: KES 6,000"
+          ]
+        },
+        {
+          "id": "nails",
+          "title": "Nail Technology",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 3 Months",
+            "Fees per Semester: KES 18,000",
+            "Fees per Month: KES 6,000"
+          ]
+        },
+        {
+          "id": "beauty",
+          "title": "Certificate in Beauty Therapy",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 4 Months",
+            "Fees per Semester: KES 24,000",
+            "Fees per Month: KES 6,000"
+          ]
+        },
+        {
+          "id": "barbering",
+          "title": "Barbering",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 3 Months",
+            "Fees per Semester: KES 21,000",
+            "Fees per Month: KES 7,000"
+          ]
+        }
+      ],
+      "gallery": {
+        "main": "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (11).jpg",
+        "thumbs": [
+          "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (12).jpg",
+          "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (13).jpg"
+        ]
+      },
+      "why_study": {
+        "title": "Why Study Cosmetology at North Coast Prime College",
+        "description": "Our cosmetology programs combine creativity, practical skills, and entrepreneurship training.",
+        "points": [
+          { "icon": "scissors", "title": "Practical Salon Training", "text": "Hands-on experience using professional tools" },
+          { "icon": "brush", "title": "Creative Skill Development", "text": "Learn modern beauty techniques and trends" },
+          { "icon": "people", "title": "Client Care Skills", "text": "Customer service and salon professionalism" },
+          { "icon": "briefcase", "title": "Self-Employment Ready", "text": "Skills to start or grow your own business" }
+        ]
+      },
+      "study_mode": [
+       "Day Classes: Monday – Friday (7:00am – 4:00pm)",
+        "Evening Classes: Monday – Friday (5:00pm – 7:00pm)",
+        "Weekend Classes: Saturday & Sunday (8:00am – 5:00pm, available upon request))"
+      ],
+      "career_paths": [
+        "Hair Stylist",
+        "Beautician",
+        "Nail Technician",
+        "Salon Owner",
+        "Makeup Artist"
+      ],
+      "fees_snapshot": [
+        { "title": "Diploma Programs", "price": "KES 25,000 per semester" },
+        { "title": "Certificate Programs", "price": "From KES 18,000" },
+        { "title": "Short Courses", "price": "KES 6,000–7,000 per month" }
+      ],
+      "fees_note": "Fees may vary by course. Please confirm with admissions."
+    },
+
+    {
+      "program_slug": "electrical-electronics",
+      "program_name": "Electrical & Electronic Engineering",
+      "eyebrow": "Programs",
+      "subtitle": "Technical training in electrical installation, maintenance, and electronics for industry-ready graduates.",
+      "hero": {
+        "title": "Programs Offered",
+        "description": "Practical engineering programs focused on electrical systems, installations, and maintenance.",
+        "badges": [
+          "Technical Skills",
+          "Hands-On Workshops",
+          "Industry Aligned"
+        ]
+      },
+      "course_highlights": [
+        {
+          "title": "Diploma in Electrical & Electronic Engineering",
+          "level": "Diploma",
+          "duration": "18 Months",
+          "image": "assets/img/programs/electrical/north-coast-prime-college-electrical (7).jpg"
+        },
+        {
+          "title": "Certificate in Electrical & Electronic Engineering",
+          "level": "Certificate",
+          "duration": "12 Months",
+          "image": "assets/img/programs/electrical/north-coast-prime-college-electrical (6).jpg"
+        },
+        {
+          "title": "Artisan in Electrical Installation",
+          "level": "Artisan",
+          "duration": "3 Months",
+          "image": "assets/img/programs/electrical/artisan.jpg"
+        }
+      ],
+      "accordion_intro": {
+        "title": "All Electrical & Electronics Courses",
+        "description": "Course requirements, duration, and fee details."
+      },
+      "accordion_background": "assets/img/programs/electrical/north-coast-prime-college-electrical (4).jpg",
+      "courses": [
+        {
+          "id": "dipElec",
+          "title": "Diploma in Electrical & Electronic Engineering",
+          "expanded": true,
+          "details": [
+            "Entry Requirement: KCSE C– (Minus)",
+            "Duration: 18 Months",
+            "Fees per Semester: KES 30,000"
+          ]
+        },
+        {
+          "id": "certElec",
+          "title": "Certificate in Electrical & Electronic Engineering",
+          "details": [
+            "Entry Requirement: KCSE D (Plain) & Above",
+            "Duration: 12 Months",
+            "Fees per Semester: KES 21,000"
+          ]
+        },
+        {
+          "id": "artisan",
+          "title": "Artisan in Electrical Installation",
+          "details": [
+            "Entry Requirement: KCSE D (Plain)",
+            "Duration: 3 Months",
+            "Fees per Semester: KES 20,000"
+          ]
+        },
+        {
+          "id": "refrigeration",
+          "title": "Refrigeration & Air Conditioning",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 6 Months",
+            "Fees per Semester: KES 25,000"
+          ]
+        }
+      ],
+      "gallery": {
+        "main": "assets/img/programs/electrical/north-coast-prime-college-electrical (1).jpg",
+        "thumbs": [
+          "assets/img/programs/electrical/north-coast-prime-college-electrical (3).jpg",
+          "assets/img/programs/electrical/north-coast-prime-college-electrical (5).jpg"
+        ]
+      },
+      "why_study": {
+        "title": "Why Study Electrical & Electronics at North Coast Prime College",
+        "description": "Gain technical expertise through hands-on training and real-world projects.",
+        "points": [
+          { "icon": "lightning-charge", "title": "Electrical Installation Skills", "text": "Domestic and industrial wiring" },
+          { "icon": "tools", "title": "Practical Workshops", "text": "Hands-on equipment training" },
+          { "icon": "wrench", "title": "Maintenance Skills", "text": "Fault diagnosis and repair" },
+          { "icon": "building", "title": "Industry Exposure", "text": "Relevant industrial applications" }
+        ]
+      },
+      "study_mode": [
+      "Day Classes: Monday – Friday (7:00am – 4:00pm)",
+        "Evening Classes: Monday – Friday (5:00pm – 7:00pm)",
+        "Weekend Classes: Saturday & Sunday (8:00am – 5:00pm, available upon request))"
+      ],
+      "career_paths": [
+        "Electrical Technician",
+        "Maintenance Technician",
+        "Electrician",
+        "Refrigeration Technician"
+      ],
+      "fees_snapshot": [
+        { "title": "Diploma", "price": "KES 30,000 per semester" },
+        { "title": "Certificate", "price": "KES 21,000 per semester" },
+        { "title": "Artisan/Short", "price": "From KES 20,000" }
+      ],
+      "fees_note": "Fees subject to change. Confirm with admissions."
+    },
+
+    {
+      "program_slug": "business-cpa",
+      "program_name": "Business & Accounting (CPA / ATD)",
+      "eyebrow": "Programs",
+      "subtitle": "Professional accounting and business training designed to prepare students for certification and corporate careers.",
+      "hero": {
+        "title": "Programs Offered",
+        "description": "Market-driven business and accounting programs aligned with professional certification standards.",
+        "badges": [
+          "Professional Certification",
+          "KASNEB Aligned",
+          "Flexible Study Modes"
+        ]
+      },
+      "course_highlights": [
+        {
+          "title": "CPA Foundation",
+          "level": "Professional",
+          "duration": "4 Months per Level",
+          "image": "assets/img/programs/business/cpa-foundation.jpg"
+        },
+        {
+          "title": "CPA Intermediate",
+          "level": "Professional",
+          "duration": "4 Months per Level",
+          "image": "assets/img/programs/business/cpa-intermediate.jpg"
+        },
+        {
+          "title": "ATD",
+          "level": "Professional",
+          "duration": "4 Months per Level",
+          "image": "assets/img/programs/business/atd.jpg"
+        }
+      ],
+      "accordion_intro": {
+        "title": "All Business & Accounting Courses",
+        "description": "View levels, duration, and fee structure for professional courses."
+      },
+      "accordion_background": "assets/img/programs/business/bg.jpg",
+      "courses": [
+        {
+          "id": "cpa-foundation",
+          "title": "CPA Foundation (Level 1 & 2)",
+          "expanded": true,
+          "details": [
+            "Entry Requirement: KCSE C+ or equivalent",
+            "Duration: 4 Months per Level",
+            "Fees per Level: KES 24,000"
+          ]
+        },
+        {
+          "id": "cpa-intermediate",
+          "title": "CPA Intermediate (Level 1 & 2)",
+          "details": [
+            "Duration: 4 Months per Level",
+            "Fees per Level: KES 26,000"
+          ]
+        },
+        {
+          "id": "cpa-advanced",
+          "title": "CPA Advanced (Level 1 & 2)",
+          "details": [
+            "Duration: 4 Months per Level",
+            "Fees per Level: KES 28,000"
+          ]
+        },
+        {
+          "id": "atd",
+          "title": "ATD (Levels 1, 2 & 3)",
+          "details": [
+            "Duration: 4 Months per Level",
+            "Fees: Level 1 – KES 19,000 | Level 2 – KES 21,000 | Level 3 – KES 23,000"
+          ]
+        }
+      ],
+      "gallery": {
+        "main": "assets/img/programs/business/main.jpg",
+        "thumbs": [
+          "assets/img/programs/business/thumb1.jpg",
+          "assets/img/programs/business/thumb2.jpg"
+        ]
+      },
+      "why_study": {
+        "title": "Why Study Business & Accounting at North Coast Prime College",
+        "description": "Develop strong financial, analytical, and professional accounting skills.",
+        "points": [
+          { "icon": "calculator", "title": "Professional Certification", "text": "Aligned with KASNEB standards" },
+          { "icon": "graph-up", "title": "Career Growth", "text": "Pathway to senior accounting roles" },
+          { "icon": "briefcase", "title": "Corporate Skills", "text": "Accounting, finance, and compliance" },
+          { "icon": "journal-text", "title": "Exam Preparation", "text": "Focused exam-oriented training" }
+        ]
+      },
+      "study_mode": [
+       "Day Classes: Monday – Friday (7:00am – 4:00pm)",
+        "Evening Classes: Monday – Friday (5:00pm – 7:00pm)",
+        "Weekend Classes: Saturday & Sunday (8:00am – 5:00pm, available upon request))"
+      ],
+      "career_paths": [
+        "Accountant",
+        "Auditor",
+        "Finance Officer",
+        "Accounts Assistant",
+        "Tax Consultant"
+      ],
+      "fees_snapshot": [
+        { "title": "CPA Foundation", "price": "KES 24,000 per level" },
+        { "title": "CPA Intermediate", "price": "KES 26,000 per level" },
+        { "title": "CPA Advanced", "price": "KES 28,000 per level" }
+      ],
+      "fees_note": "Fees are per level and subject to change."
+    },
+
+    {
+      "program_slug": "hospitality",
+      "program_name": "Hospitality & Catering",
+      "eyebrow": "Programs",
+      "subtitle": "Hands-on hospitality training focused on food production, service, and hotel operations.",
+      "hero": {
+        "title": "Programs Offered",
+        "description": "Practical hospitality programs designed for hotels, restaurants, and catering services.",
+        "badges": [
+          "Practical Training",
+          "Industry Focused",
+          "Hospitality Skills"
+        ]
+      },
+      "course_highlights": [
+        {
+          "title": "Diploma in Food & Beverage Production",
+          "level": "Diploma",
+          "duration": "12 Months",
+          "image": "assets/img/programs/hospitality/diploma.jpg"
+        },
+        {
+          "title": "Certificate in Food & Beverage",
+          "level": "Certificate",
+          "duration": "6 Months",
+          "image": "assets/img/programs/hospitality/certificate.jpg"
+        },
+        {
+          "title": "Pastry & Bakery",
+          "level": "Short Course",
+          "duration": "3 Months",
+          "image": "assets/img/programs/hospitality/bakery.jpg"
+        }
+      ],
+      "accordion_intro": {
+        "title": "All Hospitality Courses",
+        "description": "Course requirements, duration, and fees."
+      },
+      "accordion_background": "assets/img/programs/hospitality/bg.jpg",
+      "courses": [
+        {
+          "id": "dip-fb",
+          "title": "Diploma in Food & Beverage Production",
+          "expanded": true,
+          "details": [
+            "Entry Requirement: KCSE C– (Minus)",
+            "Duration: 12 Months",
+            "Fees per Semester: KES 21,000"
+          ]
+        },
+        {
+          "id": "cert-fb",
+          "title": "Certificate in Food & Beverage",
+          "details": [
+            "Entry Requirement: KCSE D– (Minus)",
+            "Duration: 6 Months",
+            "Fees per Semester: KES 20,000",
+            "Fees per Month: KES 6,000"
+          ]
+        },
+        {
+          "id": "housekeeping",
+          "title": "Housekeeping",
+          "details": [
+            "Entry Requirement: KCSE D– (Minus)",
+            "Duration: 6 Months",
+            "Fees per Semester: KES 18,000",
+            "Fees per Month: KES 6,000"
+          ]
+        },
+        {
+          "id": "caregiver",
+          "title": "Care Giver",
+          "details": [
+            "Entry Requirement: KCSE D– (Minus)",
+            "Duration: 6 Months",
+            "Fees per Semester: KES 27,000"
+          ]
+        },
+        {
+          "id": "bakery",
+          "title": "Pastry & Bakery",
+          "details": [
+            "Entry Requirement: KCSE D (Plain)",
+            "Duration: 3 Months",
+            "Fees per Semester: KES 20,000"
+          ]
+        }
+      ],
+      "gallery": {
+        "main": "assets/img/programs/hospitality/main.jpg",
+        "thumbs": [
+          "assets/img/programs/hospitality/thumb1.jpg",
+          "assets/img/programs/hospitality/thumb2.jpg"
+        ]
+      },
+      "why_study": {
+        "title": "Why Study Hospitality at North Coast Prime College",
+        "description": "Develop practical hospitality and service skills for local and international markets.",
+        "points": [
+          { "icon": "cup-hot", "title": "Practical Kitchen Skills", "text": "Hands-on food preparation" },
+          { "icon": "people", "title": "Customer Service", "text": "Professional guest handling" },
+          { "icon": "shop", "title": "Industry Exposure", "text": "Hotel and restaurant readiness" },
+          { "icon": "award", "title": "Employability", "text": "Skills in high demand globally" }
+        ]
+      },
+      "study_mode": [
+        "Day Classes",
+        "Evening Classes"
+      ],
+      "career_paths": [
+        "Chef",
+        "Hotel Attendant",
+        "Housekeeper",
+        "Catering Assistant",
+        "Care Giver"
+      ],
+      "fees_snapshot": [
+        { "title": "Diploma", "price": "KES 21,000 per semester" },
+        { "title": "Certificate", "price": "KES 6,000 per month" }
+      ],
+      "fees_note": "Fees may vary depending on course."
+    },
+
+    {
+      "program_slug": "plumbing",
+      "program_name": "Plumbing & Water Systems",
+      "eyebrow": "Programs",
+      "subtitle": "Technical plumbing training focused on installation, maintenance, and sanitation systems.",
+      "hero": {
+        "title": "Programs Offered",
+        "description": "Hands-on plumbing programs designed for construction and maintenance industries.",
+        "badges": [
+          "Hands-On Training",
+          "Open Entry",
+          "Trade Skills"
+        ]
+      },
+      "course_highlights": [
+        {
+          "title": "Pipe Installation",
+          "level": "Certificate",
+          "duration": "6 Months",
+          "image": "assets/img/programs/plumbing/pipe.jpg"
+        },
+        {
+          "title": "Water System Maintenance",
+          "level": "Certificate",
+          "duration": "12 Months",
+          "image": "assets/img/programs/plumbing/water.jpg"
+        },
+        {
+          "title": "Sanitation Works",
+          "level": "Short Course",
+          "duration": "3 Months",
+          "image": "assets/img/programs/plumbing/sanitation.jpg"
+        }
+      ],
+      "accordion_intro": {
+        "title": "All Plumbing Courses",
+        "description": "Explore plumbing course requirements and fees."
+      },
+      "accordion_background": "assets/img/programs/plumbing/bg.jpg",
+      "courses": [
+        {
+          "id": "pipe",
+          "title": "Pipe Installation",
+          "expanded": true,
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 6 Months",
+            "Fees per Semester: KES 15,000"
+          ]
+        },
+        {
+          "id": "water",
+          "title": "Water System Maintenance",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 12 Months",
+            "Fees per Semester: KES 25,000",
+            "Fees per Month: KES 6,000"
+          ]
+        },
+        {
+          "id": "sanitation",
+          "title": "Sanitation Works",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 3 Months",
+            "Fees per Semester: KES 18,000",
+            "Fees per Month: KES 6,000"
+          ]
+        }
+      ],
+      "gallery": {
+        "main": "assets/img/programs/plumbing/main.jpg",
+        "thumbs": [
+          "assets/img/programs/plumbing/thumb1.jpg",
+          "assets/img/programs/plumbing/thumb2.jpg"
+        ]
+      },
+      "why_study": {
+        "title": "Why Study Plumbing at North Coast Prime College",
+        "description": "Gain practical plumbing skills applicable to residential and commercial projects.",
+        "points": [
+          { "icon": "droplet", "title": "Water Systems", "text": "Installation and repair" },
+          { "icon": "tools", "title": "Trade Skills", "text": "Hands-on practical training" },
+          { "icon": "building", "title": "Construction Ready", "text": "Skills for construction industry" },
+          { "icon": "wrench", "title": "Maintenance Skills", "text": "System troubleshooting" }
+        ]
+      },
+      "study_mode": [
+        "Day Classes: Monday – Friday (7:00am – 4:00pm)",
+        "Evening Classes: Monday – Friday (5:00pm – 7:00pm)",
+        "Weekend Classes: Saturday & Sunday (8:00am – 5:00pm, available upon request))"
+      ],
+      "career_paths": [
+        "Plumber",
+        "Maintenance Technician",
+        "Sanitation Worker",
+        "Water Systems Technician"
+      ],
+      "fees_snapshot": [
+        { "title": "Certificate Courses", "price": "From KES 15,000" }
+      ],
+      "fees_note": "Fees subject to confirmation."
+    },
+
+    {
+      "program_slug": "languages",
+      "program_name": "Languages",
+      "eyebrow": "Programs",
+      "subtitle": "Language training programs designed to improve communication, employability, and global interaction.",
+      "hero": {
+        "title": "Programs Offered",
+        "description": "Short-term language courses focused on speaking, reading, and writing skills.",
+        "badges": [
+          "Open Entry",
+          "Short Courses",
+          "Communication Skills"
+        ]
+      },
+      "course_highlights": [
+        {
+          "title": "English (Levels 1–3)",
+          "level": "Language",
+          "duration": "3 Months",
+          "image": "assets/img/programs/languages/english.jpg"
+        },
+        {
+          "title": "French & Spanish",
+          "level": "Language",
+          "duration": "3 Months",
+          "image": "assets/img/programs/languages/french.jpg"
+        },
+        {
+          "title": "German & Italian",
+          "level": "Language",
+          "duration": "3 Months",
+          "image": "assets/img/programs/languages/german.jpg"
+        }
+      ],
+      "accordion_intro": {
+        "title": "All Language Courses",
+        "description": "Language course duration and fees."
+      },
+      "accordion_background": "assets/img/programs/languages/bg.jpg",
+      "courses": [
+        {
+          "id": "english",
+          "title": "English (Levels 1, 2 & 3)",
+          "expanded": true,
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 3 Months",
+            "Fees per Course: KES 20,000"
+          ]
+        },
+        {
+          "id": "french",
+          "title": "French & Spanish",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 3 Months",
+            "Fees per Course: KES 20,000"
+          ]
+        },
+        {
+          "id": "german",
+          "title": "German & Italian",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 3 Months",
+            "Fees per Course: KES 20,000"
+          ]
+        },
+        {
+          "id": "arabic",
+          "title": "Arabic",
+          "details": [
+            "Entry Requirement: Open",
+            "Duration: 3 Months",
+            "Fees per Course: KES 20,000"
+          ]
+        }
+      ],
+      "gallery": {
+        "main": "assets/img/programs/languages/main.jpg",
+        "thumbs": [
+          "assets/img/programs/languages/thumb1.jpg",
+          "assets/img/programs/languages/thumb2.jpg"
+        ]
+      },
+      "why_study": {
+        "title": "Why Study Languages at North Coast Prime College",
+        "description": "Improve communication skills and unlock global opportunities.",
+        "points": [
+          { "icon": "translate", "title": "Language Fluency", "text": "Speaking and comprehension skills" },
+          { "icon": "people", "title": "Global Communication", "text": "Interact confidently worldwide" },
+          { "icon": "briefcase", "title": "Career Advantage", "text": "Boost employability" },
+          { "icon": "globe", "title": "Cultural Awareness", "text": "Understand global cultures" }
+        ]
+      },
+      "study_mode": [
+        "Day Classes: Monday – Friday (7:00am – 4:00pm)",
+        "Evening Classes: Monday – Friday (5:00pm – 7:00pm)",
+        "Weekend Classes: Saturday & Sunday (8:00am – 5:00pm, available upon request))"
+      ],
+      "career_paths": [
+        "Translator",
+        "Tour Guide",
+        "Customer Service Officer",
+        "International Relations Assistant"
+      ],
+      "fees_snapshot": [
+        { "title": "All Language Courses", "price": "KES 20,000 per course" }
+      ],
+      "fees_note": "All language courses are short-term."
+    }
+  ]
+}
