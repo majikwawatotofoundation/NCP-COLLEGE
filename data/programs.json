@@ -67,7 +67,7 @@
           "details": [
             "Entry Requirement: Open",
             "Duration: 7 Weeks",
-            "Fees: KES 7,000"
+            "Fees: KES 4,500"
           ]
         },
         {
@@ -134,7 +134,7 @@
       "fees_snapshot": [
         { "title": "Diploma in ICT", "price": "KES 25,000 per semester" },
         { "title": "Certificate in ICT", "price": "KES 6,000 per month" },
-        { "title": "Short Courses", "price": "From KES 7,000" }
+        { "title": "Short Courses", "price": "From KES 4,500" }
       ],
       "fees_note": "Indicative fees. Subject to change. Please confirm with admissions."
     },
