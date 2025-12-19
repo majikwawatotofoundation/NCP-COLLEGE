@@ -128,408 +128,138 @@
 
 <div class="drawer-overlay"></div>
   <main class="main">
- 
-   
-   <!-- Program Page Title -->
-<div class="program-title-wrap">
-  <div class="container">
 
-    <span class="program-eyebrow">Programs</span>
-
-    <h1 id="program-title">Information Technology</h1>
-
-    <p class="program-subtitle">
-      Practical, career-focused training designed to build strong digital skills
-      for today’s workplace.
-    </p>
-
-    <nav class="program-breadcrumbs">
-      <ol>
-        <li><a href="index.html">Home</a></li>
-        <li class="current" id="program-breadcrumb">Programs</li>
-        <li class="current" id="program-breadcrumb">Information Technology</li>
-      </ol>
-    </nav>
-
-  </div>
-</div>
-<!-- End Program Page Title -->
-
-  
+    <!-- Program Page Title -->
+    <div class="program-title-wrap">
+      <div class="container text-center">
+        <span class="program-eyebrow">{{eyebrow}}</span>
+        <h1 id="program-title">{{program_name}}</h1>
+        <p class="program-subtitle">{{subtitle}}</p>
+        <nav class="program-breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="programs.html">Programs</a></li>
+            <li class="current" id="program-breadcrumb">{{program_name}}</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+    <!-- End Program Page Title -->
 
     <!-- Programs Section -->
-  <section id="programs" class="programs section">
-    <div class="container" data-aos="fade-up">
+    <section id="programs" class="programs section">
+      <div class="container" data-aos="fade-up">
 
-      <!-- Hero / Intro -->
-      <div class="hero-content text-center mb-5" data-aos="fade-up" data-aos-delay="200">
-            <h2>Programs Offered</h2>
-        <p class="lead">
-        Practical, hands-on training pathways designed to prepare students for
-        employment, self-reliance, and further studies in the digital field.
-        </p>
-
-        <div class="micro-info mt-4">
-          <span class="badge bg-primary text-white">Day & Evening Classes</span>
-          <span class="badge bg-primary text-white">Certificate & Diploma</span>
-          <span class="badge bg-primary text-white">Intake Ongoing</span>
+        <!-- Hero / Intro -->
+        <div class="hero-content text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+          <h2>{{hero.title}}</h2>
+          <p class="lead">{{hero.description}}</p>
+          <div class="micro-info mt-4" id="badges-container">
+            <!-- Badges will be injected here -->
+          </div>
         </div>
-      </div>
-      <!-- Courses Grid -->
+
+        <!-- Courses Grid (Top Highlights) -->
         <section class="courses-grid section pb-3">
-        <div class="container">
-            <div class="row g-4">
-
-            <div class="col-lg-4 col-md-6">
-                <div class="course-card">
-                <div class="course-image">
-                    <img src="assets/img/it/it-north-coast-prime-college-image (7).jpg" alt="Diploma in ICT">
-                    <div class="course-overlay">
-                    <div class="course-info">
-                        <h4>Diploma in Information Technology</h4>
-                        <span>Level: Diploma</span>
-                        <span>Duration: 18 Months</span>
-                    </div>
-                    </div>
-                </div>
-                </div>
+          <div class="container">
+            <div class="row g-4" id="course-highlights-grid">
+              <!-- 3 course cards will be dynamically inserted here -->
             </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="course-card">
-                <div class="course-image">
-                    <img src="assets/img/it/it-north-coast-prime-college-image (4).jpg" alt="Certificate in ICT" >
-                    <div class="course-overlay">
-                    <div class="course-info">
-                        <h4>Certificate in Information Technology</h4>
-                        <span>Level: Certificate</span>
-                        <span>Duration: 12 Months</span>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="course-card">
-                <div class="course-image">
-                    <img src="assets/img/it/it-north-coast-prime-college-image (3).jpg" alt="Web Design">
-                    <div class="course-overlay">
-                    <div class="course-info">
-                        <h4>Web Design</h4>
-                        <span>Level: Short Course</span>
-                        <span>Duration: 3 Months</span>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-            </div>
-        </div>
+          </div>
         </section>
+
         <!-- Courses Bridge -->
         <div class="courses-bridge text-center my-4">
-        <p class="mb-3">
-            Explore full course details, entry requirements, and fees below.
-        </p>
-        <a href="#itCoursesAccordion" class="btn btn-outline-primary">
+          <p class="mb-3">Explore full course details, entry requirements, and fees below.</p>
+          <a href="#itCoursesAccordion" class="btn btn-outline-primary">
             View All Courses & Requirements
-        </a>
+          </a>
         </div>
 
-      <!-- Courses Accordion -->
-        <div class="courses-accordion mb-5"
-            data-aos="fade-up"
-            data-aos-delay="300"
-           >
-
-        <div class="accordion-overlay"></div>
-        <div class="container text-center mb-5 position-relative">
-            <h3 class="mb-2">All Information Technology Courses</h3>
-            <p class="text-muted">
-                View entry requirements, duration, and fee structure for each course.
-            </p>
-        </div>
-
-
-        <div class="accordion container position-relative" id="itCoursesAccordion">
-
-            <!-- Diploma in ICT -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button"
-                data-bs-toggle="collapse" data-bs-target="#dipICT" aria-expanded="true">
-                Diploma in Information Technology
-                </button>
-            </h2>
-            <div id="dipICT" class="accordion-collapse collapse show">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE C (Plain)</li>
-                    <li><strong>Duration:</strong> 18 Months</li>
-                    <li><strong>Fees per Semester:</strong> KES 25,000</li>
-                    <li><strong>Fees per Month:</strong> —</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Certificate in ICT -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#certICT">
-                Certificate in Information Technology
-                </button>
-            </h2>
-            <div id="certICT" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE C– (Minus)</li>
-                    <li><strong>Duration:</strong> 12 Months</li>
-                    <li><strong>Fees per Semester:</strong> KES 18,000</li>
-                    <li><strong>Fees per Month:</strong> KES 6,000</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Computer Packages -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#packages">
-                Computer Packages
-                </button>
-            </h2>
-            <div id="packages" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> Open</li>
-                    <li><strong>Duration:</strong> 7 Weeks</li>
-                    <li><strong>Fees:</strong> KES 7,000</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Computer Maintenance -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#maintenance">
-                Computer Maintenance
-                </button>
-            </h2>
-            <div id="maintenance" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE D (Plain)</li>
-                    <li><strong>Duration:</strong> 3 Months</li>
-                    <li><strong>Fees per Semester:</strong> KES 18,000</li>
-                    <li><strong>Fees per Month:</strong> KES 6,000</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Web Design -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#web">
-                Web Designing
-                </button>
-            </h2>
-            <div id="web" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE D (Plain)</li>
-                    <li><strong>Duration:</strong> 3 Months</li>
-                    <li><strong>Fees:</strong> KES 30,000</li>
-                    <li><strong>Fees per Month:</strong> KES 10,000</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Graphic Design -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#graphic">
-                Graphic Design
-                </button>
-            </h2>
-            <div id="graphic" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE D (Plain)</li>
-                    <li><strong>Duration:</strong> 3 Months</li>
-                    <li><strong>Fees:</strong> KES 24,000</li>
-                    <li><strong>Fees per Month:</strong> KES 8,000</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-        </div>
-        </div>
-
-
-
-     
-
-
-      <!-- Why Study Section -->
-      <div class="features-section mb-5" data-aos="fade-up" data-aos-delay="400">
-        <div class="row align-items-center gy-5">
-          <div class="col-lg-6 order-lg-2">
-            <div class="features-gallery">
-              <div class="gallery-main">
-                <img src="assets/img/it/it-north-coast-prime-college-image (1).jpg" alt="IT Lab" class="img-fluid">
-              </div>
-              <div class="gallery-thumbnails">
-                <div class="thumbnail-item">
-                  <img src="assets/img/it/it-north-coast-prime-college-image (2).jpg" alt="Classroom" class="img-fluid">
-                </div>
-                <div class="thumbnail-item">
-                  <img src="assets/img/it/it-north-coast-prime-college-image (6).jpg" alt="Students" class="img-fluid">
-                </div>
-              </div>
-            </div>
+        <!-- Courses Accordion -->
+        <div class="courses-accordion mb-5" data-aos="fade-up" data-aos-delay="300"
+             id="accordion-container" style="background-image: url('{{accordion_background}}');">
+          <div class="accordion-overlay"></div>
+          <div class="container text-center mb-5 position-relative">
+            <h3 class="mb-2">{{accordion_intro.title}}</h3>
+            <p class="text-muted">{{accordion_intro.description}}</p>
           </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="features-content">
-              <h3>Why Study Information Technology at North Coast Prime College</h3>
-              <p>
-                Our IT programs emphasize hands-on learning, real-world applications, and industry-aligned skills to prepare students for employment or further studies.
-              </p>
-              <div class="feature-list">
-                <div class="feature-item">
-                  <div class="feature-icon"><i class="bi bi-laptop"></i></div>
-                  <div class="feature-details">
-                    <h5>Hands-on Training</h5>
-                    <p>Practical sessions in a modern computer lab</p>
-                  </div>
+          <div class="accordion container position-relative" id="coursesAccordion">
+            <!-- Accordion items will be dynamically inserted here -->
+          </div>
+        </div>
+
+        <!-- Why Study Section -->
+        <div class="features-section mb-5" data-aos="fade-up" data-aos-delay="400">
+          <div class="row align-items-center gy-5">
+            <div class="col-lg-6 order-lg-2">
+              <div class="features-gallery">
+                <div class="gallery-main">
+                  <img id="gallery-main-img" src="" alt="Program Lab/Classroom" class="img-fluid">
                 </div>
-                <div class="feature-item">
-                  <div class="feature-icon"><i class="bi bi-diagram-3"></i></div>
-                  <div class="feature-details">
-                    <h5>Industry-Relevant Curriculum</h5>
-                    <p>Courses aligned with current market needs</p>
-                  </div>
+                <div class="gallery-thumbnails" id="gallery-thumbs">
+                  <!-- Thumbnails injected here -->
                 </div>
-                <div class="feature-item">
-                  <div class="feature-icon"><i class="bi bi-person-badge"></i></div>
-                  <div class="feature-details">
-                    <h5>Experienced Instructors</h5>
-                    <p>Learn from qualified IT professionals</p>
-                  </div>
-                </div>
-                <div class="feature-item">
-                  <div class="feature-icon"><i class="bi bi-award"></i></div>
-                  <div class="feature-details">
-                    <h5>Recognized Certification Paths</h5>
-                    <p>Preparation for professional certification</p>
-                  </div>
+              </div>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <div class="features-content">
+                <h3 id="why-study-title">{{why_study.title}}</h3>
+                <p id="why-study-desc">{{why_study.description}}</p>
+                <div class="feature-list" id="why-study-points">
+                  <!-- Feature items injected here -->
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Entry Requirements & Study Mode -->
-      <div class="info-block mb-5" data-aos="fade-up" data-aos-delay="500">
-        <div class="row gy-5">
-         
-          <div class="col-lg-12">
-            <div class="info-card">
-              <h3>Study Mode</h3>
-              <ul>
-                <li>Day Classes: Monday – Friday (8:30am – 4:00pm)</li>
-                <li>Evening Classes: Monday – Friday (5:00pm – 7:00pm)</li>
-              </ul>
+        <!-- Study Mode -->
+        <div class="info-block mb-5" data-aos="fade-up" data-aos-delay="500">
+          <div class="row gy-5">
+            <div class="col-lg-12">
+              <div class="info-card">
+                <h3>Study Mode</h3>
+                <ul id="study-mode-list">
+                  <!-- List items injected here -->
+                </ul>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Career Paths -->
-      <div class="career-paths mb-5" data-aos="fade-up" data-aos-delay="600">
-        <div class="section-header text-center mb-5">
-          <h3>Career Opportunities</h3>
-          <p>Possible career paths after completing our IT programs</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-headset"></i></div>
-            <h5>IT Support Technician</h5>
-            <p>Technical support and troubleshooting</p>
+        <!-- Career Paths -->
+        <div class="career-paths mb-5" data-aos="fade-up" data-aos-delay="600">
+          <div class="section-header text-center mb-5">
+            <h3>Career Opportunities</h3>
+            <p>Possible career paths after completing our programs</p>
           </div>
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-globe"></i></div>
-            <h5>Web Designer</h5>
-            <p>Website design and maintenance</p>
-          </div>
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-brush"></i></div>
-            <h5>Graphic Designer</h5>
-            <p>Digital and visual media design</p>
-          </div>
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-router"></i></div>
-            <h5>Network Technician</h5>
-            <p>Network setup and maintenance</p>
-          </div>
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-tools"></i></div>
-            <h5>Computer Maintenance Technician</h5>
-            <p>Hardware repair and servicing</p>
+          <div class="services-grid" id="career-paths-grid">
+            <!-- Career boxes injected here -->
           </div>
         </div>
-      </div>
 
-      <!-- Fees Snapshot -->
-      <div class="fees-snapshot mb-5" data-aos="fade-up" data-aos-delay="700">
-        <div class="section-header text-center mb-5">
-          <h3>Fees Snapshot</h3>
-          <p>Indicative fees. Subject to change. Please confirm with admissions.</p>
-        </div>
-        <div class="row g-4 justify-content-center">
-          <div class="col-lg-4 col-md-6">
-            <div class="fee-item">
-              <h4>Diploma in ICT</h4>
-              <p>KES 25,000 per semester</p>
-            </div>
+        <!-- Fees Snapshot -->
+        <div class="fees-snapshot mb-5" data-aos="fade-up" data-aos-delay="700">
+          <div class="section-header text-center mb-5">
+            <h3>Fees Snapshot</h3>
+            <p id="fees-note">{{fees_note}}</p>
           </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="fee-item">
-              <h4>Certificate in ICT</h4>
-              <p>KES 6,000 per month</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="fee-item">
-              <h4>Short Courses</h4>
-              <p>From KES 7,000</p>
-            </div>
+          <div class="row g-4 justify-content-center" id="fees-snapshot-grid">
+            <!-- Fee cards injected here -->
           </div>
         </div>
-      </div>
 
-      <!-- CTA -->
-      <div class="cta-section text-center" data-aos="fade-up" data-aos-delay="800">
-        <h3>Ready to Begin Your Journey in Information Technology?</h3>
-        <a href="apply.html" class="btn-cta primary">Apply Now</a>
-        <a href="contact.html" class="btn-cta secondary">Talk to Admissions</a>
-      </div>
+        <!-- CTA -->
+        <div class="cta-section text-center" data-aos="fade-up" data-aos-delay="800">
+          <h3>Ready to Begin Your Journey in {{program_name}}?</h3>
+          <a href="apply.html" class="btn-cta primary">Apply Now</a>
+          <a href="contact.html" class="btn-cta secondary">Talk to Admissions</a>
+        </div>
 
-    </div>
-  </section>
-</main>
+      </div>
+    </section>
+  </main>
   
 
   <footer class="college-footer mt-0">
@@ -661,6 +391,7 @@
     <script src="assets/js/custom.js"></script>
   <script src="assets/js/script.js"></script>
   <script src="assets/js/slow-load.js"></script>
+  <script src="assets/js/programs.js"></script>
   <script>
 document.addEventListener('DOMContentLoaded', () => {
 
