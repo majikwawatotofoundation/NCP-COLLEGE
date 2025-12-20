@@ -74,7 +74,7 @@
   <div class="container">
     <!-- Logo -->
     <a href="index.html" class="college-logo">
-      <img src="./assets/img/logo-npc.jpeg" alt="number" class="logo-img">
+      <img src="./assets/img/npc-logo-new.png" alt="number" class="logo-img">
       <span class="sitename">North Coast Prime College</span>
     </a>
   
@@ -83,7 +83,23 @@
     <nav class="college-nav">
       <ul>
         <li><a href="index.html" class="nav-link active">Home</a></li>
-        <li><a href="programs.html" class="nav-link">Programs</a></li>
+        <!-- <li><a href="programs.html" class="nav-link">Programs</a></li> -->
+        <li class="nav-item has-dropdown">
+            <a href="programs.html" class="nav-link">
+              Programs <i class="bi bi-chevron-down"></i>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a href="programs.html?school=information-technology">Information Technology</a></li>
+              <li><a href="programs.html?school=electrical">Electrical & Electronics</a></li>
+              <li><a href="programs.html?school=cosmetology">Cosmetology</a></li>
+              <li><a href="programs.html?school=business-cpa">Business / CPA</a></li>
+              <li><a href="programs.html?school=hospitality">Hospitality</a></li>
+              <li><a href="programs.html?school=plumbing">Plumbing</a></li>
+              <li><a href="programs.html?school=languages">Languages</a></li>
+            </ul>
+       </li>
+
         <li><a href="about.html" class="nav-link">About</a></li>
         <li><a href="admissions.html" class="nav-link">Admissions</a></li>
         <li><a href="contact.html" class="nav-link">Contact</a></li>
@@ -114,7 +130,23 @@
   <div class="drawer-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="programs.html">Programs</a></li>
+
+      <li class="drawer-dropdown">
+        <span class="drawer-dropdown-title">
+          Programs <i class="bi bi-chevron-down"></i>
+        </span>
+
+        <ul class="drawer-submenu">
+          <li><a href="programs.html?school=information-technology">Information Technology</a></li>
+          <li><a href="programs.html?school=electrical">Electrical & Electronics</a></li>
+          <li><a href="programs.html?school=cosmetology">Cosmetology</a></li>
+          <li><a href="programs.html?school=business-cpa">Business / CPA</a></li>
+          <li><a href="programs.html?school=hospitality">Hospitality</a></li>
+          <li><a href="programs.html?school=plumbing">Plumbing</a></li>
+          <li><a href="programs.html?school=languages">Languages</a></li>
+        </ul>
+     </li>
+
       <li><a href="about.html">About</a></li>
       <li><a href="admissions.html">Admissions</a></li>
       <li><a href="contact.html">Contact</a></li>
@@ -132,14 +164,14 @@
     <!-- Program Page Title -->
     <div class="program-title-wrap">
       <div class="container text-center">
-        <span class="program-eyebrow">{{eyebrow}}</span>
-        <h1 id="program-title">{{program_name}}</h1>
-        <p class="program-subtitle">{{subtitle}}</p>
+        <span class="program-eyebrow"></span>
+        <h1 id="program-title"></h1>
+        <p class="program-subtitle"></p>
         <nav class="program-breadcrumbs">
           <ol>
             <li><a href="index.html">Home</a></li>
-            <li><a href="programs.html">Programs</a></li>
-            <li class="current" id="program-breadcrumb">{{program_name}}</li>
+            <li class="current">Programs</li>
+            <li class="current" id="program-breadcrumb"></li>
           </ol>
         </nav>
       </div>
@@ -152,8 +184,8 @@
 
         <!-- Hero / Intro -->
         <div class="hero-content text-center mb-5" data-aos="fade-up" data-aos-delay="200">
-          <h2>{{hero.title}}</h2>
-          <p class="lead">{{hero.description}}</p>
+          <h2></h2>
+          <p class="lead"></p>
           <div class="micro-info mt-4" id="badges-container">
             <!-- Badges will be injected here -->
           </div>
@@ -171,7 +203,7 @@
         <!-- Courses Bridge -->
         <div class="courses-bridge text-center my-4">
           <p class="mb-3">Explore full course details, entry requirements, and fees below.</p>
-          <a href="#itCoursesAccordion" class="btn btn-outline-primary">
+          <a href="#accordion-container" class="btn btn-outline-primary">
             View All Courses & Requirements
           </a>
         </div>
@@ -181,8 +213,8 @@
              id="accordion-container" style="background-image: url('{{accordion_background}}');">
           <div class="accordion-overlay"></div>
           <div class="container text-center mb-5 position-relative">
-            <h3 class="mb-2">{{accordion_intro.title}}</h3>
-            <p class="text-muted">{{accordion_intro.description}}</p>
+            <h3 class="mb-2"></h3>
+            <p class="text-muted"></p>
           </div>
           <div class="accordion container position-relative" id="coursesAccordion">
             <!-- Accordion items will be dynamically inserted here -->
@@ -204,8 +236,8 @@
             </div>
             <div class="col-lg-6 order-lg-1">
               <div class="features-content">
-                <h3 id="why-study-title">{{why_study.title}}</h3>
-                <p id="why-study-desc">{{why_study.description}}</p>
+                <h3 id="why-study-title"></h3>
+                <p id="why-study-desc"></p>
                 <div class="feature-list" id="why-study-points">
                   <!-- Feature items injected here -->
                 </div>
@@ -243,7 +275,7 @@
         <div class="fees-snapshot mb-5" data-aos="fade-up" data-aos-delay="700">
           <div class="section-header text-center mb-5">
             <h3>Fees Snapshot</h3>
-            <p id="fees-note">{{fees_note}}</p>
+            <p id="fees-note"></p>
           </div>
           <div class="row g-4 justify-content-center" id="fees-snapshot-grid">
             <!-- Fee cards injected here -->
@@ -252,7 +284,7 @@
 
         <!-- CTA -->
         <div class="cta-section text-center" data-aos="fade-up" data-aos-delay="800">
-          <h3>Ready to Begin Your Journey in {{program_name}}?</h3>
+          <h3>Ready to Begin Your Journey in?</h3>
           <a href="apply.html" class="btn-cta primary">Apply Now</a>
           <a href="contact.html" class="btn-cta secondary">Talk to Admissions</a>
         </div>
@@ -269,7 +301,7 @@
       <!-- Brand & Contact -->
       <div class="footer-brand">
         <a href="index.html" class="footer-logo-link">
-          <img src="./assets/img/logo-npc.jpeg" alt="North Coast Prime College" class="footer-logo">
+          <img src="./assets/img/npc-logo-new.png" alt="North Coast Prime College" class="footer-logo">
         </a>
         <h3>North Coast Prime College</h3>
         <p class="footer-tagline">
@@ -303,7 +335,7 @@
           <li><a href="#">Business & Entrepreneurship</a></li>
           <li><a href="#">Electrical & Electronics</a></li>
           <li><a href="#">Hospitality & Tourism</a></li>
-          <li><a href="#">Fashion & Applied Skills</a></li>
+          <!-- <li><a href="#">Fashion & Applied Skills</a></li> -->
         </ul>
       </div>
 

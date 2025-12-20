@@ -74,7 +74,7 @@
   <div class="container">
     <!-- Logo -->
     <a href="index.html" class="college-logo">
-      <img src="./assets/img/logo-npc.jpeg" alt="number" class="logo-img">
+      <img src="./assets/img/npc-logo-new.png" alt="number" class="logo-img">
       <span class="sitename">North Coast Prime College</span>
     </a>
   
@@ -83,7 +83,23 @@
     <nav class="college-nav">
       <ul>
         <li><a href="index.html" class="nav-link active">Home</a></li>
-        <li><a href="programs.html" class="nav-link">Programs</a></li>
+        <!-- <li><a href="programs.html" class="nav-link">Programs</a></li> -->
+        <li class="nav-item has-dropdown">
+            <a href="programs.html" class="nav-link">
+              Programs <i class="bi bi-chevron-down"></i>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a href="programs.html?school=information-technology">Information Technology</a></li>
+              <li><a href="programs.html?school=electrical">Electrical & Electronics</a></li>
+              <li><a href="programs.html?school=cosmetology">Cosmetology</a></li>
+              <li><a href="programs.html?school=business-cpa">Business / CPA</a></li>
+              <li><a href="programs.html?school=hospitality">Hospitality</a></li>
+              <li><a href="programs.html?school=plumbing">Plumbing</a></li>
+              <li><a href="programs.html?school=languages">Languages</a></li>
+            </ul>
+       </li>
+
         <li><a href="about.html" class="nav-link">About</a></li>
         <li><a href="admissions.html" class="nav-link">Admissions</a></li>
         <li><a href="contact.html" class="nav-link">Contact</a></li>
@@ -114,7 +130,23 @@
   <div class="drawer-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="programs.html">Programs</a></li>
+
+      <li class="drawer-dropdown">
+        <span class="drawer-dropdown-title">
+          Programs <i class="bi bi-chevron-down"></i>
+        </span>
+
+        <ul class="drawer-submenu">
+          <li><a href="programs.html?school=information-technology">Information Technology</a></li>
+          <li><a href="programs.html?school=electrical">Electrical & Electronics</a></li>
+          <li><a href="programs.html?school=cosmetology">Cosmetology</a></li>
+          <li><a href="programs.html?school=business-cpa">Business / CPA</a></li>
+          <li><a href="programs.html?school=hospitality">Hospitality</a></li>
+          <li><a href="programs.html?school=plumbing">Plumbing</a></li>
+          <li><a href="programs.html?school=languages">Languages</a></li>
+        </ul>
+     </li>
+
       <li><a href="about.html">About</a></li>
       <li><a href="admissions.html">Admissions</a></li>
       <li><a href="contact.html">Contact</a></li>
@@ -156,7 +188,7 @@
             <!-- CTAs -->
             <div class="hero-ctas" data-aos="fade-up" data-aos-delay="300">
               <a href="admissions.html" class="btn btn-primary">Apply Now</a>
-              <a href="programs.html" class="btn btn-primary">View Courses</a>
+              <a href="#academic-programs" class="btn btn-primary">View Courses</a>
             </div>
           </div>
         </div>
@@ -332,7 +364,7 @@
             <div class="program-info">
               <h4>Languages</h4>
               <span class="meta">English & Foreign Languages</span>
-              <a href="programs.html?school=business-cpa" class="cta-btn">
+              <a href="programs.html?school=languages" class="cta-btn">
                 View Courses <i class="bi bi-arrow-right"></i>
               </a>
             </div>
@@ -681,7 +713,7 @@
       <!-- Brand & Contact -->
       <div class="footer-brand">
         <a href="index.html" class="footer-logo-link">
-          <img src="./assets/img/logo-npc.jpeg" alt="North Coast Prime College" class="footer-logo">
+          <img src="./assets/img/npc-logo-new.png" alt="North Coast Prime College" class="footer-logo">
         </a>
         <h3>North Coast Prime College</h3>
         <p class="footer-tagline">

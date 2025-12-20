@@ -33,6 +33,13 @@ closeBtn.addEventListener('click', toggleMenu);
 overlay.addEventListener('click', toggleMenu);
   // overlay.addEventListener('click', toggleDrawer);
 
+  document.querySelectorAll('.drawer-dropdown-title').forEach(title => {
+  title.addEventListener('click', () => {
+    title.nextElementSibling.classList.toggle('open');
+  });
+});
+
+
 
 });
 

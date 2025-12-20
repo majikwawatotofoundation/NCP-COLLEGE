@@ -38,7 +38,7 @@
         "title": "All Information Technology Courses",
         "description": "View entry requirements, duration, and fee structure for each course."
       },
-      "accordion_background": "assets/img/programs/it/it-north-coast-prime-college-image (5).jpg",
+     
       "courses": [
         {
           "id": "dipICT",
@@ -164,20 +164,20 @@
           "title": "Certificate in Hairdressing",
           "level": "Certificate",
           "duration": "3 Months",
-          "image": "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (2).jpg"
+          "image": "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (5).jpg"
         },
         {
           "title": "Nail Technology",
           "level": "Short Course",
           "duration": "3 Months",
-          "image": "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (5).jpg"
+          "image": "assets/img/programs/cosmetology/north-coast-prime-college-cosmetology-image (14).jpg"
         }
       ],
       "accordion_intro": {
         "title": "All Cosmetology Courses",
         "description": "Explore entry requirements, duration, and fee structure for each course."
       },
-      "accordion_background": "assets/img/programs/cosmetology/bg.jpg",
+     
       "courses": [
         {
           "id": "dipHair",
@@ -293,20 +293,20 @@
           "title": "Certificate in Electrical & Electronic Engineering",
           "level": "Certificate",
           "duration": "12 Months",
-          "image": "assets/img/programs/electrical/north-coast-prime-college-electrical (6).jpg"
+          "image": "assets/img/programs/electrical/north-coast-prime-college-electrical (9).jpg"
         },
         {
           "title": "Artisan in Electrical Installation",
           "level": "Artisan",
           "duration": "3 Months",
-          "image": "assets/img/programs/electrical/artisan.jpg"
+          "image": "assets/img/programs/electrical/north-coast-prime-college-electrical (8).jpg"
         }
       ],
       "accordion_intro": {
         "title": "All Electrical & Electronics Courses",
         "description": "Course requirements, duration, and fee details."
       },
-      "accordion_background": "assets/img/programs/electrical/north-coast-prime-college-electrical (4).jpg",
+     
       "courses": [
         {
           "id": "dipElec",
@@ -350,7 +350,7 @@
         "main": "assets/img/programs/electrical/north-coast-prime-college-electrical (1).jpg",
         "thumbs": [
           "assets/img/programs/electrical/north-coast-prime-college-electrical (3).jpg",
-          "assets/img/programs/electrical/north-coast-prime-college-electrical (5).jpg"
+          "assets/img/programs/electrical/north-coast-prime-college-electrical (10).jpg"
         ]
       },
       "why_study": {
@@ -401,26 +401,26 @@
           "title": "CPA Foundation",
           "level": "Professional",
           "duration": "4 Months per Level",
-          "image": "assets/img/programs/business/cpa-foundation.jpg"
+          "image": "assets/img/programs/business/north-coast-prime-college-image-business (2).jpg"
         },
         {
           "title": "CPA Intermediate",
           "level": "Professional",
           "duration": "4 Months per Level",
-          "image": "assets/img/programs/business/cpa-intermediate.jpg"
+          "image": "assets/img/programs/business/north-coast-prime-college-image-business (7).jpg"
         },
         {
           "title": "ATD",
           "level": "Professional",
           "duration": "4 Months per Level",
-          "image": "assets/img/programs/business/atd.jpg"
+          "image": "assets/img/programs/business/north-coast-prime-college-image-business (5).jpg"
         }
       ],
       "accordion_intro": {
         "title": "All Business & Accounting Courses",
         "description": "View levels, duration, and fee structure for professional courses."
       },
-      "accordion_background": "assets/img/programs/business/bg.jpg",
+    
       "courses": [
         {
           "id": "cpa-foundation",
@@ -458,10 +458,10 @@
         }
       ],
       "gallery": {
-        "main": "assets/img/programs/business/main.jpg",
+        "main": "assets/img/programs/business/north-coast-prime-college-image-business (3).jpg",
         "thumbs": [
-          "assets/img/programs/business/thumb1.jpg",
-          "assets/img/programs/business/thumb2.jpg"
+          "assets/img/programs/business/north-coast-prime-college-image-business (4).jpg",
+          "assets/img/programs/business/north-coast-prime-college-image-business (1).jpg"
         ]
       },
       "why_study": {
@@ -513,26 +513,26 @@
           "title": "Diploma in Food & Beverage Production",
           "level": "Diploma",
           "duration": "12 Months",
-          "image": "assets/img/programs/hospitality/diploma.jpg"
+          "image": "assets/img/programs/hospitality/north-coast-prime-college-hosp-image (3).jpg"
         },
         {
           "title": "Certificate in Food & Beverage",
           "level": "Certificate",
           "duration": "6 Months",
-          "image": "assets/img/programs/hospitality/certificate.jpg"
+          "image": "assets/img/programs/hospitality/north-coast-prime-college-hosp-image (2).jpg"
         },
         {
           "title": "Pastry & Bakery",
           "level": "Short Course",
           "duration": "3 Months",
-          "image": "assets/img/programs/hospitality/bakery.jpg"
+          "image": "assets/img/programs/hospitality/north-coast-prime-college-hosp-image (1).jpg"
         }
       ],
       "accordion_intro": {
         "title": "All Hospitality Courses",
         "description": "Course requirements, duration, and fees."
       },
-      "accordion_background": "assets/img/programs/hospitality/bg.jpg",
+    
       "courses": [
         {
           "id": "dip-fb",
@@ -584,10 +584,10 @@
         }
       ],
       "gallery": {
-        "main": "assets/img/programs/hospitality/main.jpg",
+        "main": "assets/img/programs/hospitality/north-coast-prime-college-hosp-image (4).jpg",
         "thumbs": [
-          "assets/img/programs/hospitality/thumb1.jpg",
-          "assets/img/programs/hospitality/thumb2.jpg"
+          "assets/img/programs/hospitality/north-coast-prime-college-hosp-image (5).jpg",
+          "assets/img/programs/hospitality/north-coast-prime-college-hosp-image (6).jpg"
         ]
       },
       "why_study": {
@@ -637,26 +637,26 @@
           "title": "Pipe Installation",
           "level": "Certificate",
           "duration": "6 Months",
-          "image": "assets/img/programs/plumbing/pipe.jpg"
+          "image": "assets/img/programs/plumbing/north-coast-prime-college-plumbing-image (11).jpg"
         },
         {
           "title": "Water System Maintenance",
           "level": "Certificate",
           "duration": "12 Months",
-          "image": "assets/img/programs/plumbing/water.jpg"
+          "image": "assets/img/programs/plumbing/north-coast-prime-college-plumbing-image (2).jpg"
         },
         {
           "title": "Sanitation Works",
           "level": "Short Course",
           "duration": "3 Months",
-          "image": "assets/img/programs/plumbing/sanitation.jpg"
+          "image": "assets/img/programs/plumbing/north-coast-prime-college-plumbing-image (3).jpg"
         }
       ],
       "accordion_intro": {
         "title": "All Plumbing Courses",
         "description": "Explore plumbing course requirements and fees."
       },
-      "accordion_background": "assets/img/programs/plumbing/bg.jpg",
+    
       "courses": [
         {
           "id": "pipe",
@@ -690,10 +690,10 @@
         }
       ],
       "gallery": {
-        "main": "assets/img/programs/plumbing/main.jpg",
+        "main": "assets/img/programs/plumbing/north-coast-prime-college-plumbing-image (6).jpg",
         "thumbs": [
-          "assets/img/programs/plumbing/thumb1.jpg",
-          "assets/img/programs/plumbing/thumb2.jpg"
+          "assets/img/programs/plumbing/north-coast-prime-college-plumbing-image (12).jpg",
+          "assets/img/programs/plumbing/north-coast-prime-college-plumbing-image (9).jpg"
         ]
       },
       "why_study": {
@@ -742,26 +742,26 @@
           "title": "English (Levels 1–3)",
           "level": "Language",
           "duration": "3 Months",
-          "image": "assets/img/programs/languages/english.jpg"
+          "image": "assets/img/programs/languages/north-coast-prime-college-langauage-image (5).jpg"
         },
         {
           "title": "French & Spanish",
           "level": "Language",
           "duration": "3 Months",
-          "image": "assets/img/programs/languages/french.jpg"
+          "image": "assets/img/programs/languages/north-coast-prime-college-langauage-image (2).jpg"
         },
         {
           "title": "German & Italian",
           "level": "Language",
           "duration": "3 Months",
-          "image": "assets/img/programs/languages/german.jpg"
+          "image": "assets/img/programs/languages/north-coast-prime-college-langauage-image (6).jpg"
         }
       ],
       "accordion_intro": {
         "title": "All Language Courses",
         "description": "Language course duration and fees."
       },
-      "accordion_background": "assets/img/programs/languages/bg.jpg",
+    
       "courses": [
         {
           "id": "english",
@@ -802,10 +802,10 @@
         }
       ],
       "gallery": {
-        "main": "assets/img/programs/languages/main.jpg",
+        "main": "assets/img/programs/languages/north-coast-prime-college-langauage-image (3).jpg",
         "thumbs": [
-          "assets/img/programs/languages/thumb1.jpg",
-          "assets/img/programs/languages/thumb2.jpg"
+          "assets/img/programs/languages/north-coast-prime-college-langauage-image (4).jpg",
+          "assets/img/programs/languages/north-coast-prime-college-langauage-image (1).jpg"
         ]
       },
       "why_study": {
