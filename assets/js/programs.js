@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     });
 
     // Accordion Background
-    document.querySelector('.courses-accordion').style.backgroundImage = `url('${program.accordion_background}')`;
+    // document.querySelector('.courses-accordion').style.backgroundImage = `url('${program.accordion_background}')`;
 
     // Accordion Intro
     document.querySelector('.courses-accordion h3').textContent = program.accordion_intro.title;
