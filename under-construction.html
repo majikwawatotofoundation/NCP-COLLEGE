@@ -68,12 +68,13 @@
 </head>
 
 <body class="index-page">
+
   <!-- College Header -->
 <header class="college-header">
   <div class="container">
     <!-- Logo -->
     <a href="index.html" class="college-logo">
-      <img src="./assets/img/logo-npc.jpeg" alt="number" class="logo-img">
+      <img src="./assets/img/npc-logo-new.png" alt="number" class="logo-img">
       <span class="sitename">North Coast Prime College</span>
     </a>
   
@@ -82,14 +83,30 @@
     <nav class="college-nav">
       <ul>
         <li><a href="index.html" class="nav-link active">Home</a></li>
-        <li><a href="programs.html" class="nav-link">Programs</a></li>
+        <!-- <li><a href="programs.html" class="nav-link">Programs</a></li> -->
+        <li class="nav-item has-dropdown">
+            <a href="programs.html" class="nav-link">
+              Programs <i class="bi bi-chevron-down"></i>
+            </a>
+
+            <ul class="dropdown-menu">
+              <li><a href="programs.html?school=information-technology">Information Technology</a></li>
+              <li><a href="programs.html?school=electrical">Electrical & Electronics</a></li>
+              <li><a href="programs.html?school=cosmetology">Cosmetology</a></li>
+              <li><a href="programs.html?school=business-cpa">Business / CPA</a></li>
+              <li><a href="programs.html?school=hospitality">Hospitality</a></li>
+              <li><a href="programs.html?school=plumbing">Plumbing</a></li>
+              <li><a href="programs.html?school=languages">Languages</a></li>
+            </ul>
+       </li>
+
         <li><a href="about.html" class="nav-link">About</a></li>
         <li><a href="admissions.html" class="nav-link">Admissions</a></li>
         <li><a href="contact.html" class="nav-link">Contact</a></li>
       </ul>
 
       <!-- Apply Now Button -->
-      <a href="admissions.html" class="college-btn">Apply Now</a>
+      <a href="apply.html" class="college-btn">Apply Now</a>
     </nav>
 
     <!-- Mobile Burger -->
@@ -105,7 +122,7 @@
 <nav class="college-drawer">
   <div class="drawer-header">
     <a href="index.html" class="drawer-logo">
-      <span class="sitename">North Coast Prime College</span>
+      <!-- <span class="sitename">North Coast Prime College</span> -->
     </a>
     <div class="drawer-close">&times;</div>
   </div>
@@ -113,7 +130,23 @@
   <div class="drawer-nav">
     <ul>
       <li><a href="index.html">Home</a></li>
-      <li><a href="programs.html">Programs</a></li>
+
+      <li class="drawer-dropdown">
+        <span class="drawer-dropdown-title">
+          Programs <i class="bi bi-chevron-down"></i>
+        </span>
+
+        <ul class="drawer-submenu">
+          <li><a href="programs.html?school=information-technology">Information Technology</a></li>
+          <li><a href="programs.html?school=electrical">Electrical & Electronics</a></li>
+          <li><a href="programs.html?school=cosmetology">Cosmetology</a></li>
+          <li><a href="programs.html?school=business-cpa">Business / CPA</a></li>
+          <li><a href="programs.html?school=hospitality">Hospitality</a></li>
+          <li><a href="programs.html?school=plumbing">Plumbing</a></li>
+          <li><a href="programs.html?school=languages">Languages</a></li>
+        </ul>
+     </li>
+
       <li><a href="about.html">About</a></li>
       <li><a href="admissions.html">Admissions</a></li>
       <li><a href="contact.html">Contact</a></li>
@@ -127,44 +160,13 @@
 
 <div class="drawer-overlay"></div>
 
-<main>
-  <section>
-    <div class="under-construction">
-
-      <img src="assets/img/misc/books-svgrepo-com.svg" 
-           alt="Academic Resources Icon" 
-           class="car-animated">
-
-      <h1>Page Under Development</h1>
-
-      <p>
-        We are currently updating this section to better serve our students,
-        parents, and partners. Please check back soon for complete and
-        up-to-date information about North Coast Prime College.
-      </p>
-
-      <a href="index.html" class="btn-primary">
-        Return to Homepage
-      </a>
-
-    </div>
-  </section>
-</main>
-
-
-  <!-- Floating decorative shapes -->
-  <!-- <img src="assets/img/misc/wave-1.svg" class="bg-shape" alt="">
-  <img src="assets/img/misc/wave-2.svg" class="bg-shape" alt=""> -->
-    </section>
-  </main>
-   <footer class="college-footer">
   <div class="container">
     <!-- Footer Grid -->
     <div class="footer-grid">
       <!-- Brand & Contact -->
       <div class="footer-brand">
         <a href="index.html" class="footer-logo-link">
-          <img src="./assets/img/logo-npc.jpeg" alt="North Coast Prime College" class="footer-logo">
+          <img src="./assets/img/npc-logo-new.png" alt="North Coast Prime College" class="footer-logo">
         </a>
         <h3>North Coast Prime College</h3>
         <p class="footer-tagline">
@@ -222,20 +224,63 @@
       </p>
     </div>
   </div>
+
+ </main>
+
+
+  <footer class="college-footer mt-0">
+  
 </footer>
-
-
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Preloader -->
-  <div id="preloader">
-    <div class="loader-wrapper">
-      <div class="car-icon">🚗</div>
-      <div class="road"></div>
+<!-- Preloader -->
+<div id="preloader">
+  <div class="loader-wrapper">
+
+    <!-- Book + Flame Icon -->
+    <div class="college-icon">
+      <img src="assets/img/misc/books-svgrepo-com.svg"
+           alt="College Emblem"
+           class="book-flame">
     </div>
+
+    <!-- Loading Text -->
+    <div class="loading-text">
+      Preparing Your Learning Journey
+    </div>
+
+    <!-- Progress Line -->
+    <div class="progress-line"></div>
+
   </div>
+</div>
+
+
+  <section>
+    <div class="under-construction">
+
+      <img src="assets/img/misc/books-svgrepo-com.svg" 
+           alt="Academic Resources Icon" 
+           class="car-animated">
+
+      <h1>Page Under Development</h1>
+
+      <p>
+        We are currently updating this section to better serve our students,
+        parents, and partners. Please check back soon for complete and
+        up-to-date information about North Coast Prime College.
+      </p>
+
+      <a href="index.html" class="btn-primary">
+        Return to Homepage
+      </a>
+
+    </div>
+  </section>
+</main>
+
 
 
   <!-- Vendor JS Files -->
@@ -272,6 +317,8 @@
   <script src="assets/js/swiper-slides.js"></script>
     <script src="assets/js/custom.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/slow-load.js"></script>
+   <script src="assets/js/programs.js"></script>
   <script>
 document.addEventListener('DOMContentLoaded', () => {
 
@@ -314,8 +361,6 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 </script>
 
-  
-  
   
 
 </body>

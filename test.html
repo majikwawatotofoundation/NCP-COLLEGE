@@ -1,711 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
+<main class="main">
 
-<head>
-    <!-- Essential Meta -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Admissions Inquiry Section -->
+  <section id="admissions-inquiry" class="admissions section">
 
-<title>North Coast Prime College | Practical Skills & Professional Training in Kenya</title>
-
-<meta name="description" content="North Coast Prime College offers practical, career-focused training in ICT, Business, Hospitality, Engineering, Fashion, Cosmetology, and Technical courses. January intake ongoing with flexible study options.">
-
-<meta name="keywords" content="North Coast Prime College, technical college kenya, TVET college kenya, ICT courses kenya, business courses kenya, hospitality courses kenya, fashion design kenya, cosmetology courses kenya, plumbing courses kenya, vocational training kenya">
-
-<!-- Open Graph (for social sharing) -->
-<meta property="og:title" content="North Coast Prime College | Skills That Build Careers">
-<meta property="og:description" content="Explore practical, hands-on training programs designed to prepare students for real-world careers. Admissions open for January intake.">
-<meta property="og:image" content="assets/img/college/campus-overview.jpg">
-<meta property="og:url" content="https://npc.ac.ke">
-<meta property="og:type" content="website">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="North Coast Prime College | Practical Skills for the Future">
-<meta name="twitter:description" content="Career-focused training in technology, business, hospitality, and applied skills. Flexible programs designed for today’s learners.">
-<meta name="twitter:image" content="assets/img/college/campus-overview.jpg">
-
-  <!-- Favicons -->
-   <!-- Favicon -->
-  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-  <link href="favicon.ico" rel="icon">
-  
-
-  <!-- Fonts -->
-  <link href="https://fonts.googleapis.com" rel="preconnect">
-  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-
-  
-  
- 
-  
-     <!-- Bootstrap  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- AOS -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <!-- Animate.css -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <!-- GLightbox CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
-    <!-- Swiper.js CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
-    
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
-  <!--  CSS Files -->
-    <!-- Flatpickr CSS -->
-   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
-
-  <!-- Main CSS File -->
-  <link href="assets/css/styles.css" rel="stylesheet">
-
-
-</head>
-
-<body class="index-page">
-
-  <!-- College Header -->
-<header class="college-header">
-  <div class="container">
-    <!-- Logo -->
-    <a href="index.html" class="college-logo">
-      <img src="./assets/img/logo-npc.jpeg" alt="number" class="logo-img">
-      <span class="sitename">North Coast Prime College</span>
-    </a>
-  
-
-    <!-- Desktop Navigation -->
-    <nav class="college-nav">
-      <ul>
-        <li><a href="index.html" class="nav-link active">Home</a></li>
-        <li><a href="programs.html" class="nav-link">Programs</a></li>
-        <li><a href="about.html" class="nav-link">About</a></li>
-        <li><a href="admissions.html" class="nav-link">Admissions</a></li>
-        <li><a href="contact.html" class="nav-link">Contact</a></li>
-      </ul>
-
-      <!-- Apply Now Button -->
-      <a href="apply.html" class="college-btn">Apply Now</a>
-    </nav>
-
-    <!-- Mobile Burger -->
-    <div class="college-burger">
-      <span></span>
-      <span></span>
-      <span></span>
-    </div>
-  </div>
-</header>
-
-<!-- Mobile Drawer + Overlay (place near closing </body>) -->
-<nav class="college-drawer">
-  <div class="drawer-header">
-    <a href="index.html" class="drawer-logo">
-      <!-- <span class="sitename">North Coast Prime College</span> -->
-    </a>
-    <div class="drawer-close">&times;</div>
-  </div>
-
-  <div class="drawer-nav">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="programs.html">Programs</a></li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="admissions.html">Admissions</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-
-    <div class="drawer-btn">
-      <a href="admissions.html" class="college-btn">Apply Now</a>
-    </div>
-  </div>
-</nav>
-
-<div class="drawer-overlay"></div>
-  <main class="main">
- 
-   
-   <!-- Program Page Title -->
-<div class="program-title-wrap">
-  <div class="container">
-
-    <span class="program-eyebrow">Programs</span>
-
-    <h1 id="program-title">Information Technology</h1>
-
-    <p class="program-subtitle">
-      Practical, career-focused training designed to build strong digital skills
-      for today’s workplace.
-    </p>
-
-    <nav class="program-breadcrumbs">
-      <ol>
-        <li><a href="index.html">Home</a></li>
-        <li class="current" id="program-breadcrumb">Programs</li>
-        <li class="current" id="program-breadcrumb">Information Technology</li>
-      </ol>
-    </nav>
-
-  </div>
-</div>
-<!-- End Program Page Title -->
-
-  
-
-    <!-- Programs Section -->
-  <section id="programs" class="programs section">
     <div class="container" data-aos="fade-up">
 
-      <!-- Hero / Intro -->
-      <div class="hero-content text-center mb-5" data-aos="fade-up" data-aos-delay="200">
-            <h2>Programs Offered</h2>
+      <!-- Header -->
+      <div class="admissions-header text-center mb-5" data-aos="fade-up" data-aos-delay="100">
+        <h2>Apply for Admission</h2>
         <p class="lead">
-        Practical, hands-on training pathways designed to prepare students for
-        employment, self-reliance, and further studies in the digital field.
+          Start your journey at North Coast Prime College. Fill in your details and we'll guide you through the next steps.
         </p>
-
-        <div class="micro-info mt-4">
-          <span class="badge bg-primary text-white">Day & Evening Classes</span>
-          <span class="badge bg-primary text-white">Certificate & Diploma</span>
-          <span class="badge bg-primary text-white">Intake Ongoing</span>
-        </div>
       </div>
-      <!-- Courses Grid -->
-        <section class="courses-grid section pb-3">
-        <div class="container">
-            <div class="row g-4">
 
-            <div class="col-lg-4 col-md-6">
-                <div class="course-card">
-                <div class="course-image">
-                    <img src="assets/img/it/it-north-coast-prime-college-image (7).jpg" alt="Diploma in ICT">
-                    <div class="course-overlay">
-                    <div class="course-info">
-                        <h4>Diploma in Information Technology</h4>
-                        <span>Level: Diploma</span>
-                        <span>Duration: 18 Months</span>
-                    </div>
-                    </div>
+      <!-- Two Column Grid -->
+      <div class="admissions-grid">
+
+        <!-- LEFT: Form -->
+        <div class="admissions-form-section" data-aos="fade-right" data-aos-delay="200">
+          <div class="form-container">
+            <form id="admissions-form" class="admissions-form" method="POST">
+
+              <!-- Program Interest -->
+              <div class="form-section">
+                <h4>Program Interest</h4>
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="program_category" class="form-label">Program Category</label>
+                    <select id="program_category" name="program_category" class="form-control" required>
+                      <option value="">Select Program</option>
+                      <option value="information-technology">Information Technology</option>
+                      <option value="business-cpa">Business & Accounting (CPA/ATD)</option>
+                      <option value="hospitality">Hospitality & Catering</option>
+                      <option value="cosmetology">Cosmetology</option>
+                      <option value="electrical-electronics">Electrical & Electronics</option>
+                      <option value="plumbing">Plumbing & Water Systems</option>
+                      <option value="languages">Languages</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="intake" class="form-label">Preferred Intake</label>
+                    <select id="intake" name="intake" class="form-control">
+                      <option value="">Any Intake</option>
+                      <option>January 2026</option>
+                      <option>May 2026</option>
+                      <option>September 2026</option>
+                    </select>
+                  </div>
                 </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="course-card">
-                <div class="course-image">
-                    <img src="assets/img/it/it-north-coast-prime-college-image (4).jpg" alt="Certificate in ICT" >
-                    <div class="course-overlay">
-                    <div class="course-info">
-                        <h4>Certificate in Information Technology</h4>
-                        <span>Level: Certificate</span>
-                        <span>Duration: 12 Months</span>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="course-card">
-                <div class="course-image">
-                    <img src="assets/img/it/it-north-coast-prime-college-image (3).jpg" alt="Web Design">
-                    <div class="course-overlay">
-                    <div class="course-info">
-                        <h4>Web Design</h4>
-                        <span>Level: Short Course</span>
-                        <span>Duration: 3 Months</span>
-                    </div>
-                    </div>
-                </div>
-                </div>
-            </div>
-
-            </div>
-        </div>
-        </section>
-        <!-- Courses Bridge -->
-        <div class="courses-bridge text-center my-4">
-        <p class="mb-3">
-            Explore full course details, entry requirements, and fees below.
-        </p>
-        <a href="#itCoursesAccordion" class="btn btn-outline-primary">
-            View All Courses & Requirements
-        </a>
-        </div>
-
-      <!-- Courses Accordion -->
-        <div class="courses-accordion mb-5"
-            data-aos="fade-up"
-            data-aos-delay="300"
-           >
-
-        <div class="accordion-overlay"></div>
-        <div class="container text-center mb-5 position-relative">
-            <h3 class="mb-2">All Information Technology Courses</h3>
-            <p class="text-muted">
-                View entry requirements, duration, and fee structure for each course.
-            </p>
-        </div>
-
-
-        <div class="accordion container position-relative" id="itCoursesAccordion">
-
-            <!-- Diploma in ICT -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button" type="button"
-                data-bs-toggle="collapse" data-bs-target="#dipICT" aria-expanded="true">
-                Diploma in Information Technology
-                </button>
-            </h2>
-            <div id="dipICT" class="accordion-collapse collapse show">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE C (Plain)</li>
-                    <li><strong>Duration:</strong> 18 Months</li>
-                    <li><strong>Fees per Semester:</strong> KES 25,000</li>
-                    <li><strong>Fees per Month:</strong> —</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Certificate in ICT -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#certICT">
-                Certificate in Information Technology
-                </button>
-            </h2>
-            <div id="certICT" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE C– (Minus)</li>
-                    <li><strong>Duration:</strong> 12 Months</li>
-                    <li><strong>Fees per Semester:</strong> KES 18,000</li>
-                    <li><strong>Fees per Month:</strong> KES 6,000</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Computer Packages -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#packages">
-                Computer Packages
-                </button>
-            </h2>
-            <div id="packages" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> Open</li>
-                    <li><strong>Duration:</strong> 7 Weeks</li>
-                    <li><strong>Fees:</strong> KES 4,500</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Computer Maintenance -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#maintenance">
-                Computer Maintenance
-                </button>
-            </h2>
-            <div id="maintenance" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE D (Plain)</li>
-                    <li><strong>Duration:</strong> 3 Months</li>
-                    <li><strong>Fees per Semester:</strong> KES 18,000</li>
-                    <li><strong>Fees per Month:</strong> KES 6,000</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Web Design -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#web">
-                Web Designing
-                </button>
-            </h2>
-            <div id="web" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE D (Plain)</li>
-                    <li><strong>Duration:</strong> 3 Months</li>
-                    <li><strong>Fees:</strong> KES 30,000</li>
-                    <li><strong>Fees per Month:</strong> KES 10,000</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-            <!-- Graphic Design -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed" type="button"
-                data-bs-toggle="collapse" data-bs-target="#graphic">
-                Graphic Design
-                </button>
-            </h2>
-            <div id="graphic" class="accordion-collapse collapse">
-                <div class="accordion-body">
-                <ul>
-                    <li><strong>Entry Requirement:</strong> KCSE D (Plain)</li>
-                    <li><strong>Duration:</strong> 3 Months</li>
-                    <li><strong>Fees:</strong> KES 24,000</li>
-                    <li><strong>Fees per Month:</strong> KES 8,000</li>
-                </ul>
-                </div>
-            </div>
-            </div>
-
-        </div>
-        </div>
-
-
-
-     
-
-
-      <!-- Why Study Section -->
-      <div class="features-section mb-5" data-aos="fade-up" data-aos-delay="400">
-        <div class="row align-items-center gy-5">
-          <div class="col-lg-6 order-lg-2">
-            <div class="features-gallery">
-              <div class="gallery-main">
-                <img src="assets/img/it/it-north-coast-prime-college-image (1).jpg" alt="IT Lab" class="img-fluid">
               </div>
-              <div class="gallery-thumbnails">
-                <div class="thumbnail-item">
-                  <img src="assets/img/it/it-north-coast-prime-college-image (2).jpg" alt="Classroom" class="img-fluid">
+
+              <!-- Study Preferences -->
+              <div class="form-section">
+                <h4>Study Preferences</h4>
+                <div class="form-grid">
+                  <div class="form-group">
+                    <label for="study_mode" class="form-label">Study Mode</label>
+                    <select id="study_mode" name="study_mode" class="form-control">
+                      <option value="">Any Mode</option>
+                      <option>Day Classes</option>
+                      <option>Evening Classes</option>
+                      <option>Weekend Access</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="learning_goal" class="form-label">Your Goal</label>
+                    <select id="learning_goal" name="learning_goal" class="form-control">
+                      <option value="">Select Goal</option>
+                      <option>Employment</option>
+                      <option>Self-Employment</option>
+                      <option>Further Studies</option>
+                    </select>
+                  </div>
                 </div>
-                <div class="thumbnail-item">
-                  <img src="assets/img/it/it-north-coast-prime-college-image (6).jpg" alt="Students" class="img-fluid">
+                <div class="form-group">
+                  <label for="notes" class="form-label">Additional Questions (Optional)</label>
+                  <textarea id="notes" name="notes" class="form-control" rows="4"
+                    placeholder="Any specific questions about programs, fees, or requirements?"></textarea>
+                </div>
+              </div>
+
+              <!-- Personal Info -->
+              <div class="form-section">
+                <h4>Your Information</h4>
+                <div class="form-grid">
+                  <div class="form-group full-width">
+                    <label for="full_name" class="form-label">Full Name</label>
+                    <input type="text" id="full_name" name="full_name" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="email" class="form-label">Email Address</label>
+                    <input type="email" id="email" name="email" class="form-control" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone" class="form-label">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" class="form-control" required>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Submit -->
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary w-100">
+                  <i class="bi bi-send me-2"></i>
+                  Submit Application Inquiry
+                </button>
+              </div>
+
+            </form>
+          </div>
+        </div>
+
+        <!-- RIGHT: College Highlights -->
+        <div class="admissions-info-section" data-aos="fade-left" data-aos-delay="300">
+          <!-- Main Image -->
+          <div class="info-image">
+            <img src="assets/img/college/north-coast-prime-college (22).jpg"
+                 alt="Students at North Coast Prime College"
+                 class="img-fluid rounded-shadow">
+          </div>
+
+          <!-- Why Choose Us -->
+          <div class="info-card">
+            <h3>Why Choose North Coast Prime College</h3>
+            <div class="info-points">
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="bi bi-laptop"></i>
+                </div>
+                <div>
+                  <h5>Modern Practical Training</h5>
+                  <p>Hands-on learning in fully equipped labs and workshops</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="bi bi-clock"></i>
+                </div>
+                <div>
+                  <h5>Flexible Study Options</h5>
+                  <p>Day, evening, and weekend classes to fit your schedule</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="bi bi-award"></i>
+                </div>
+                <div>
+                  <h5>Industry-Aligned Programs</h5>
+                  <p>Courses designed for real-world employment and entrepreneurship</p>
+                </div>
+              </div>
+              <div class="info-item">
+                <div class="info-icon">
+                  <i class="bi bi-people"></i>
+                </div>
+                <div>
+                  <h5>Supportive Learning Environment</h5>
+                  <p>Qualified instructors and dedicated student support</p>
                 </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-6 order-lg-1">
-            <div class="features-content">
-              <h3>Why Study Information Technology at North Coast Prime College</h3>
-              <p>
-                Our IT programs emphasize hands-on learning, real-world applications, and industry-aligned skills to prepare students for employment or further studies.
-              </p>
-              <div class="feature-list">
-                <div class="feature-item">
-                  <div class="feature-icon"><i class="bi bi-laptop"></i></div>
-                  <div class="feature-details">
-                    <h5>Hands-on Training</h5>
-                    <p>Practical sessions in a modern computer lab</p>
-                  </div>
-                </div>
-                <div class="feature-item">
-                  <div class="feature-icon"><i class="bi bi-diagram-3"></i></div>
-                  <div class="feature-details">
-                    <h5>Industry-Relevant Curriculum</h5>
-                    <p>Courses aligned with current market needs</p>
-                  </div>
-                </div>
-                <div class="feature-item">
-                  <div class="feature-icon"><i class="bi bi-person-badge"></i></div>
-                  <div class="feature-details">
-                    <h5>Experienced Instructors</h5>
-                    <p>Learn from qualified IT professionals</p>
-                  </div>
-                </div>
-                <div class="feature-item">
-                  <div class="feature-icon"><i class="bi bi-award"></i></div>
-                  <div class="feature-details">
-                    <h5>Recognized Certification Paths</h5>
-                    <p>Preparation for professional certification</p>
-                  </div>
-                </div>
-              </div>
+
+          <!-- Trust Badges -->
+          <div class="admissions-trust">
+            <div class="trust-item">
+              <i class="bi bi-shield-check"></i>
+              <span>TVET Accredited Institution</span>
+            </div>
+            <div class="trust-item">
+              <i class="bi bi-headset"></i>
+              <span>Personal Admissions Guidance</span>
+            </div>
+            <div class="trust-item">
+              <i class="bi bi-chat-dots"></i>
+              <span>Quick Response Guaranteed</span>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- Entry Requirements & Study Mode -->
-      <div class="info-block mb-5" data-aos="fade-up" data-aos-delay="500">
-        <div class="row gy-5">
-         
-          <div class="col-lg-12">
-            <div class="info-card">
-              <h3>Study Mode</h3>
-              <ul>
-                <li>Day Classes: Monday – Friday (7:00am – 4:00pm)</li>
-                <li>Evening Classes: Monday – Friday (5:00pm – 9:00pm)</li>
-                    <li><strong>Weekend Classes:</strong> Saturday & Sunday (8:00am – 5:00pm, available upon request)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
       </div>
-
-      <!-- Career Paths -->
-      <div class="career-paths mb-5" data-aos="fade-up" data-aos-delay="600">
-        <div class="section-header text-center mb-5">
-          <h3>Career Opportunities</h3>
-          <p>Possible career paths after completing our IT programs</p>
-        </div>
-        <div class="services-grid">
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-headset"></i></div>
-            <h5>IT Support Technician</h5>
-            <p>Technical support and troubleshooting</p>
-          </div>
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-globe"></i></div>
-            <h5>Web Designer</h5>
-            <p>Website design and maintenance</p>
-          </div>
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-brush"></i></div>
-            <h5>Graphic Designer</h5>
-            <p>Digital and visual media design</p>
-          </div>
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-router"></i></div>
-            <h5>Network Technician</h5>
-            <p>Network setup and maintenance</p>
-          </div>
-          <div class="service-box">
-            <div class="service-icon"><i class="bi bi-tools"></i></div>
-            <h5>Computer Maintenance Technician</h5>
-            <p>Hardware repair and servicing</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Fees Snapshot -->
-      <div class="fees-snapshot mb-5" data-aos="fade-up" data-aos-delay="700">
-        <div class="section-header text-center mb-5">
-          <h3>Fees Snapshot</h3>
-          <p>Indicative fees. Subject to change. Please confirm with admissions.</p>
-        </div>
-        <div class="row g-4 justify-content-center">
-          <div class="col-lg-4 col-md-6">
-            <div class="fee-item">
-              <h4>Diploma in ICT</h4>
-              <p>KES 25,000 per semester</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="fee-item">
-              <h4>Certificate in ICT</h4>
-              <p>KES 6,000 per month</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="fee-item">
-              <h4>Short Courses</h4>
-              <p>From KES 4,500</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- CTA -->
-      <div class="cta-section text-center" data-aos="fade-up" data-aos-delay="800">
-        <h3>Ready to Begin Your Journey in Information Technology?</h3>
-        <a href="apply.html" class="btn-cta primary">Apply Now</a>
-        <a href="contact.html" class="btn-cta secondary">Talk to Admissions</a>
-      </div>
-
     </div>
+
   </section>
+  <!-- End Admissions Inquiry Section -->
+
 </main>
-  
-
-  <footer class="college-footer mt-0">
-  <div class="container">
-    <!-- Footer Grid -->
-    <div class="footer-grid">
-      <!-- Brand & Contact -->
-      <div class="footer-brand">
-        <a href="index.html" class="footer-logo-link">
-          <img src="./assets/img/logo-npc.jpeg" alt="North Coast Prime College" class="footer-logo">
-        </a>
-        <h3>North Coast Prime College</h3>
-        <p class="footer-tagline">
-          Empowering learners with practical skills for today’s world.
-        </p>
-        <div class="footer-contact">
-          <p><i class="bi bi-telephone-fill"></i><strong>Phone:</strong> <a href="tel:+254116265006">+254 116 265 006</a></p>
-          <p><i class="bi bi-whatsapp"></i><strong>WhatsApp:</strong> <a href="https://wa.me/+254116265006 ">+254 116 265 006</a></p>
-          <p><i class="bi bi-envelope-fill"></i><strong>Email:</strong> <a href="mailto:info@npc.ac.ke">info@npc.ac.ke</a></p>
-          <p><i class="bi bi-geo-alt-fill"></i><strong>Location:</strong> Mtwapa, Kilifi County, Kenya</p>
-        </div>
-      </div>
-
-      <!-- Quick Links -->
-      <div class="footer-links">
-        <h4>Quick Links</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About the College</a></li>
-          <li><a href="programs.html">Academic Programs</a></li>
-          <li><a href="admissions.html">Admissions</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
-        </ul>
-      </div>
-
-      <!-- Academic Areas -->
-      <div class="footer-links">
-        <h4>Academic Areas</h4>
-        <ul>
-          <li><a href="#">Information & Communication Technology (ICT)</a></li>
-          <li><a href="#">Business & Entrepreneurship</a></li>
-          <li><a href="#">Electrical & Electronics</a></li>
-          <li><a href="#">Hospitality & Tourism</a></li>
-          <li><a href="#">Fashion & Applied Skills</a></li>
-        </ul>
-      </div>
-
-      <!-- Connect With Us -->
-      <div class="footer-social">
-        <h4>Connect With Us</h4>
-        <p>Admissions updates, campus news, and student highlights</p>
-        <div class="social-icons">
-          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
-          <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
-          <a href="https://wa.me/+254116265006" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
-          <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer Bottom -->
-    <div class="footer-bottom">
-      <p>&copy; 2025 <strong>North Coast Prime College</strong>. All Rights Reserved
-        <span class="separator">•</span> Building skills for tomorrow
-      </p>
-    </div>
-  </div>
-</footer>
-
-  <!-- Scroll Top -->
-  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-
-<!-- Preloader -->
-<div id="preloader">
-  <div class="loader-wrapper">
-
-    <!-- Book + Flame Icon -->
-    <div class="college-icon">
-      <img src="assets/img/misc/books-svgrepo-com.svg"
-           alt="College Emblem"
-           class="book-flame">
-    </div>
-
-    <!-- Loading Text -->
-    <div class="loading-text">
-      Preparing Your Learning Journey
-    </div>
-
-    <!-- Progress Line -->
-    <div class="progress-line"></div>
-
-  </div>
-</div>
-
-
-
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-
-    <!-- Bootstrap JS and Popper.js -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-
-    <!--Email.js-->
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-
-  <!-- Swiper JS -->
-      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- AOS JS Files -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- GLightbox JS -->
-    <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
-  
-
-  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-auth-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-storage-compat.js"></script>
-
-
-  <!-- Flatpickr JS -->
- <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-
-  <!-- Main JS File -->
-   <script src="assets/js/flatpickr.js"></script>
-  <script src="assets/js/swiper-slides.js"></script>
-    <script src="assets/js/custom.js"></script>
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/slow-load.js"></script>
-  <script>
-document.addEventListener('DOMContentLoaded', () => {
-
-  /* Pages that are NOT ready yet */
-  const underConstructionPages = [
-   
-    'about.html',
-    'admissions.html',
-    'contact.html'
-  ];
-
-  document.querySelectorAll('a[href]').forEach(link => {
-    const href = link.getAttribute('href');
-
-    /* Skip external links, anchors, and empty links */
-    if (
-      !href ||
-      href.startsWith('#') ||
-      href.startsWith('http') ||
-      href.startsWith('mailto') ||
-      href.startsWith('tel')
-    ) {
-      return;
-    }
-
-    /* Allow Apply page to work */
-    if (href === 'apply.html') {
-      return;
-    }
-
-    /* Redirect selected pages */
-    if (underConstructionPages.includes(href)) {
-      link.addEventListener('click', (e) => {
-        e.preventDefault();
-        window.location.href = 'under-construction.html';
-      });
-    }
-  });
-
-});
-</script>
-
-  
-
-</body>
-
-</html>

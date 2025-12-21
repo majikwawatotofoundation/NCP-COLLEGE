@@ -833,6 +833,154 @@
         { "title": "All Language Courses", "price": "KES 20,000 per course" }
       ],
       "fees_note": "All language courses are short-term."
+    },
+    {
+  "program_slug": "fashion-design",
+  "program_name": "Fashion Design",
+  "eyebrow": "Programs",
+  "subtitle": "Creative, hands-on training in garment construction, tailoring, and fashion entrepreneurship.",
+
+  "hero": {
+    "title": "Programs Offered",
+    "description": "Develop practical skills in fashion design, tailoring, and garment production through hands-on studio training.",
+    "badges": [
+      "Practical Studio Training",
+      "Short Courses & Certificate",
+      "Creative Skills Development"
+    ]
+  },
+
+  "course_highlights": [
+    {
+      "title": "Certificate in Fashion Design",
+      "level": "Certificate",
+      "duration": "6 Months",
+      "image": "assets/img/programs/fashion-design/north-coast-prime-fashion-image (4).jpg"
+    },
+    {
+      "title": "Fashion Design & Tailoring",
+      "level": "Short Course",
+      "duration": "3 Months",
+      "image": "assets/img/programs/fashion-design/north-coast-prime-fashion-image (5).jpg"
+    },
+    {
+      "title": "Dress Making & Garment Construction",
+      "level": "Short Course",
+      "duration": "3 Months",
+      "image": "assets/img/programs/fashion-design/north-coast-prime-fashion-image (6).jpg"
     }
+  ],
+
+  "accordion_intro": {
+    "title": "All Fashion Design Courses",
+    "description": "View entry requirements, duration, and fees for each fashion program."
+  },
+
+
+
+  "courses": [
+    {
+      "id": "fashionCert",
+      "title": "Certificate in Fashion Design",
+      "expanded": true,
+      "details": [
+        "Entry Requirement: KCSE D (Plain) / Open",
+        "Duration: 6 Months",
+        "Fees: KES 25,000"
+      ]
+    },
+    {
+      "id": "fashionTailoring",
+      "title": "Fashion Design & Tailoring",
+      "details": [
+        "Entry Requirement: Open",
+        "Duration: 3 Months",
+        "Fees: KES 18,000",
+        "Fees per Month: KES 6,000"
+      ]
+    },
+    {
+      "id": "dressMaking",
+      "title": "Dress Making & Garment Construction",
+      "details": [
+        "Entry Requirement: Open",
+        "Duration: 3 Months",
+        "Fees: KES 20,000"
+      ]
+    },
+    {
+      "id": "patternCutting",
+      "title": "Pattern Cutting & Sewing",
+      "details": [
+        "Entry Requirement: Open",
+        "Duration: 2 Months",
+        "Fees: KES 15,000"
+      ]
+    }
+  ],
+
+  "why_study": {
+    "title": "Why Study Fashion Design at North Coast Prime College",
+    "description": "Our fashion programs emphasize creativity, practical garment construction, and entrepreneurship to prepare students for self-employment or the fashion industry.",
+    "points": [
+      {
+        "icon": "scissors",
+        "title": "Hands-on Studio Training",
+        "text": "Learn through practical garment construction and sewing sessions"
+      },
+      {
+        "icon": "palette",
+        "title": "Creative Skill Development",
+        "text": "Build strong design and fashion styling skills"
+      },
+      {
+        "icon": "shop",
+        "title": "Entrepreneurship Focus",
+        "text": "Gain skills to start and manage your own fashion business"
+      },
+      {
+        "icon": "person-workspace",
+        "title": "Industry-Relevant Training",
+        "text": "Training aligned with local fashion and tailoring needs"
+      }
+    ]
+  },
+
+  "gallery": {
+    "main": "assets/img/programs/fashion-design/north-coast-prime-fashion-image (1).jpg",
+    "thumbs": [
+      "assets/img/programs/fashion-design/north-coast-prime-fashion-image (2).jpg",
+      "assets/img/programs/fashion-design/north-coast-prime-fashion-image (3).jpg"
+    ]
+  },
+
+  "study_mode": [
+    "Weekday Classes: Monday – Friday (7:00am – 4:00pm)",
+    "Evening Classes: Flexible scheduling",
+    "Weekend Access: Saturday & Sunday (8:00am – 5:00pm)"
+  ],
+
+  "career_paths": [
+    "Fashion Designer",
+    "Tailor / Dressmaker",
+    "Boutique Owner",
+    "Garment Production Assistant",
+    "Fashion Entrepreneur"
+  ],
+
+  "fees_snapshot": [
+    {
+      "title": "Certificate in Fashion Design",
+      "price": "KES 25,000"
+    },
+    {
+      "title": "Short Courses",
+      "price": "From KES 15,000"
+    }
+  ],
+
+  "fees_note": "Indicative fees. Subject to change. Please confirm with admissions."
+}
+
   ]
 }
